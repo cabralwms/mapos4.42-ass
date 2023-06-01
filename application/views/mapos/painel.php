@@ -18,7 +18,7 @@
 
 <!-- New Bem-vindos -->
 <div id="content-bemv">
-    <div class="bemv">Fw Informática</div>
+    <div class="bemv">Dashboard</div>
     <div></div>
 </div>
 

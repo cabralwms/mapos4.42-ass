@@ -43,7 +43,7 @@ date_default_timezone_set('America/Sao_Paulo');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://www.firewarrior.com.br/sisfw/';
+$config['base_url'] = 'enter_baseurl';
 
 /*
 |--------------------------------------------------------------------------
