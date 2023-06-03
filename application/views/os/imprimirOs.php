@@ -287,7 +287,7 @@ $filePathT = base_url('application/signatures/' . $result->nome . '.png');
                                                     <td>
                                                     <img width="150" src="<?php echo($filePath); ?>" />
                                                     <br>
-                                                    ____________________________________    
+                                                    _________________________    
                                                     Assinatura do Cliente
     
                                                     </td>
@@ -295,7 +295,7 @@ $filePathT = base_url('application/signatures/' . $result->nome . '.png');
                                                     <img width="150" src="<?php echo($filePathT); ?>" />
                                                     <br>
     
-                                                    _____________________________________
+                                                    _________________________
                                                     Assinatura do Ténico
                                                     </td>
                                             </tr>
