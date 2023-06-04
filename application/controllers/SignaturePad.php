@@ -11,7 +11,7 @@ class SignaturePad extends CI_Controller {
 
     public function upload_signature()
     {
-	  $nOs = $this->input->post('nOs');	
+	    $nOs = $this->input->post('nOs');	
         $imageData = $this->input->post('imageData');
         $imageData2 = $this->input->post('imageData2');
         $clientName = $this->input->post('clientName');
@@ -23,7 +23,7 @@ class SignaturePad extends CI_Controller {
 
         // Save the image file
         $filePath = $_SERVER['DOCUMENT_ROOT'] . '/mapos-master/application/signatures/' . $nOs . $clientName . '.png';
-        file_put_contents($filePath, base64_decode($imageData));
+file_put_contents($filePath, base64_decode($imageData));
 
         $filePath = $_SERVER['DOCUMENT_ROOT'] . '/mapos-master/application/signatures/' . $tecnico . '.png';
         file_put_contents($filePath, base64_decode($imageData2));
